@@ -8,6 +8,6 @@ mkdir repo
 cd repo/
 git clone https://github.com/michaelkeiluweit/fixed404pagewithnestedwidgets
 cd ..
-composer config repositories.oxs/fixed404withnestedwidgets path repo/oxs/fixed404pagenestedwidgets/
+composer config repositories.oxs/fixed404withnestedwidgets path repo/fixed404pagewithnestedwidgets
 composer require oxid-support/fixed404pagenestedwidgets
 ```
