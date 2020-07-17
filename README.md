@@ -1,0 +1,13 @@
+Reference: https://github.com/OXID-eSales/oxideshop_ce/pull/757  
+Original module was created by Keywan Gadhami
+
+#Install 
+Locate to the shop root directory (where the folders source and vendor are located).
+```
+mkdir repo
+cd repo/
+git clone https://github.com/michaelkeiluweit/fixed404pagewithnestedwidgets
+cd ..
+composer config repositories.oxs/fixed404withnestedwidgets path repo/oxs/fixed404pagenestedwidgets/
+composer require oxid-support/fixed404pagenestedwidgets
+```

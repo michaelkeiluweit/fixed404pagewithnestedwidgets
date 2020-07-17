@@ -1,0 +1,15 @@
+{
+    "name":        "oxid-support/fixed404pagenestedwidgets",
+    "description": "Fixed 404 Page with nested widgets. Based on the PS module from Keywan Ghadami.'",
+    "type":        "oxideshop-module",
+    "keywords":    [
+        "oxid",
+        "modules",
+        "eShop"
+    ],
+    "autoload":    {
+        "psr-4": {
+            "OxidSupport\\Fixed404PageWithNestedWidgets\\": "../../../source/modules/oxid-support/fixed404pagenestedwidgets"
+        }
+    }
+}
